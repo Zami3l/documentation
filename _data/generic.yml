@@ -1,57 +1,60 @@
 sidebarTitle: Documentation
 owner: zamiel
 
-## Keep this commented out content because it shows the YAML model for the sidebar.
-
 folders:
 
 - title: Présentation
   folderitems:
+
   - title: Site
     url: /index.html
 
 - title: Linux
   folderitems:
-  - title: Installation Arch Linux
-    url: /installation-arch.html
 
-  - title: Installer des dépôts AUR
-    url: /installation-depot-aur.html
-
-  - title: Ajouter une résolution sur Xorg
-    url: /resolution-xorg.html
-
-  - title: Configurer son adresse IP
-    url: /configuration-ip.html
-
+  - title:
     subfolders:
-    - title: Second level deep
+
+    - title: Système
       subfolderitems:
 
-      - title: Sublevel 1
-        url: /sublevel1.html
+      - title: Installation d'Arch Linux
+        url: /installation-arch.html
 
-      - title: Sublevel 2
-        url: /sublevel2.html
+      - title: Installation des dépôts AUR
+        url: /installation-depot-aur.html
 
-      - title: Sublevel 3
-        url: /sublevel3.html
+  - title:
+    subfolders:
 
-        subsubfolders:
-        - title: Third level deep
-          subsubfolderitems:
+    - title: Réseaux
+      subfolderitems:
 
-          - title: Sub-sublevel 1
-            url: /subsublevel1.html
+      - title: Configuration de l'adresse IP
+        url: /configuration-ip.html
 
-          - title: Sub-sublevel 2
-            url: /subsublevel2.html
+  - title:
+    subfolders:
 
-          - title: Sub-sublevel 3
-            url: /subsublevel3.html
+    - title: Scripts
+      subfolderitems:
+
+      - title: En cours
+        url: /en-cours.html
+
+  - title:
+    subfolders:
+
+    - title: Debug
+      subfolderitems:
+
+      - title: Ajout d'une résolution sur Xorg
+        url: /resolution-xorg.html
+
 
 - title: Informatique
   folderitems:
+
   - title: Convention des commits
     url: /convention-commits.html
 
@@ -60,6 +63,7 @@ folders:
 
 - title: Automatisme
   folderitems:
+    
   - title: En cours
     url: /en-cours.html
 
