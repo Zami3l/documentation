@@ -11,10 +11,17 @@ navbar_dropdowns:
 
     - title: Linux
       folderitems:
-        - title: Theme instructions
-          url: /mydoc_introduction.html
-        - title: Generic
-          url: /sample1.html
+        - title: Installation Arch Linux
+          url: /installation-arch.html
+
+        - title: Installer des dépôts AUR
+          url: /installation-depot-aur.html
+
+        - title: Ajouter une résolution sur Xorg
+          url: /resolution-xorg.html
+
+        - title: Configurer son adresse IP
+          url: /configuration-ip.html
 
     - title: Informatique
       folderitems:
@@ -29,15 +36,23 @@ navbar_dropdowns:
         - title: En cours
           url: /en-cours.html
 
-    - title: Other Resources
+    - title: Autres
       folderitems:
-        - title: Github Repo
-          url: https://github.com/tomjohnson1492/documentation-theme-jekyll
-        - title: Jekyll Talk
-          url: https://talk.jekyllrb.com
-        - title: Jekyll documentation
-          url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
-          url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
-          url: http://idratherbewriting.com/category-jekyll/
+        - title: Github
+          url: https://github.com/
+        - title: Jekyll
+          url: https://jekyllrb.com/
+        - title: Kernel Linux
+          url: https://blog.eleven-labs.com/fr/comprendre-kernel-linux/
+        - title: Open vSwitch
+          url: https://www.openvswitch.org/
+        - title: Docker Hub
+          url: https://hub.docker.com/
+        - title: Arch Linux
+          url: https://www.archlinux.org/
+        - title: BlackArch Linux
+          url: https://blackarch.org/index.html
+        - title: Root Me
+          url: https://www.root-me.org/
+        - title: OpenClassrooms
+          url: https://openclassrooms.com/fr/
