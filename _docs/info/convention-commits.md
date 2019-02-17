@@ -1,8 +1,8 @@
 ---
 title: Convention des commits
 permalink: convention-commits.html
-tag-name: convention-commits
-tag-display: Convention des commits
+sidebar: generic
+product: Generic
 ---
 
 ----
