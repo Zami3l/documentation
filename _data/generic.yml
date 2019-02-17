@@ -4,6 +4,12 @@ owner: zamiel
 ## Keep this commented out content because it shows the YAML model for the sidebar.
 
 folders:
+
+- title: Présentation
+  folderitems:
+  - title: Site
+    url: /index.html
+
 - title: Linux
   folderitems:
   - title: Installation Arch Linux
@@ -13,7 +19,7 @@ folders:
     url: /installation-depot-aur.html
 
   - title: Ajouter une résolution sur Xorg
-    url: /resolution-xorg.html.html
+    url: /resolution-xorg.html
 
   - title: Configurer son adresse IP
     url: /configuration-ip.html
@@ -59,12 +65,33 @@ folders:
 
 ###########################
 
-related_resources_title: Other Resources
+related_resources_title: Autres
 
 related_resources_list:
 
-- title: Jekyll
-  url: http://jekyllrb.com
-
 - title: Github
-  url: http://github.com
+  url: https://github.com/
+
+- title: Jekyll
+  url: https://jekyllrb.com/
+
+- title: Kernel Linux
+  url: https://blog.eleven-labs.com/fr/comprendre-kernel-linux/
+
+- title: Open vSwitch
+  url: https://www.openvswitch.org/
+
+- title: Docker Hub
+  url: https://hub.docker.com/
+
+- title: Arch Linux
+  url: https://www.archlinux.org/
+
+- title: BlackArch Linux
+  url: https://blackarch.org/index.html
+
+- title: Root Me
+  url: https://www.root-me.org/
+  
+- title: OpenClassrooms
+  url: https://openclassrooms.com/fr/
