@@ -2,7 +2,7 @@
 title: Installer Arch Linux
 permalink: installation-arch.html
 sidebar: generic
-product: Generic
+product: Linux
 ---
 
 ----

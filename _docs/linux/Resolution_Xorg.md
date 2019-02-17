@@ -2,7 +2,7 @@
 title: Ajouter une résolution sur Xorg
 permalink: resolution-xorg.html
 sidebar: generic
-product: Generic
+product: Linux
 ---
 
 ----

@@ -2,7 +2,7 @@
 title: Convention des commits
 permalink: convention-commits.html
 sidebar: generic
-product: Generic
+product: Informatique
 ---
 
 ----

@@ -2,7 +2,7 @@
 title: Configurer son adresse IP
 permalink: configuration-ip.html
 sidebar: generic
-product: Generic
+product: Linux
 ---
 
 ----
