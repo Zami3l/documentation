@@ -15,31 +15,15 @@ navbar_dropdowns:
           url: /mydoc_introduction.html
         - title: Generic
           url: /sample1.html
+          
     - title: Informatique
       folderitems:
-        - title: Getting started
-          url: /tag-getting-started.html
+        - title: Convention des commits
+          url: /convention-commits.html
 
-        - title: Content types
-          url: /tag-content-types.html
+        - title: TOR et Proxychains
+          url: /install-tor-proxychains.html
 
-        - title: Navigation
-          url: /tag-navigation.html
-
-        - title: Formatting
-          url: /tag-formatting.html
-
-        - title: Publishing
-          url: /tag-publishing.html
-
-        - title: Single-sourcing
-          url: /tag-single-sourcing.html
-
-        - title: Collaboration
-          url: /tag-collaboration.html
-
-        - title: Troubleshooting
-          url: /tag-troubleshooting.html
     - title: Automatisme
       folderitems:
         - title: Getting started
@@ -65,6 +49,7 @@ navbar_dropdowns:
 
         - title: Troubleshooting
           url: /tag-troubleshooting.html
+
     - title: Other Resources
       folderitems:
         - title: Github Repo
