@@ -1,5 +1,5 @@
 ---
-title: Ajouter une résolution sur Xorg
+title: Ajout d'une résolution sur Xorg
 permalink: resolution-xorg.html
 sidebar: generic
 product: Linux

@@ -1,5 +1,5 @@
 ---
-title: Installer des dépôts AUR
+title: Installation des dépôts AUR
 permalink: installation-depot-aur.html
 sidebar: generic
 product: Linux

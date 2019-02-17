@@ -1,5 +1,5 @@
 ---
-title: Configurer son adresse IP
+title: Configuration de l'adresse IP
 permalink: configuration-ip.html
 sidebar: generic
 product: Linux

@@ -1,5 +1,5 @@
 ---
-title: Installer Arch Linux
+title: Installer d'Arch Linux
 permalink: installation-arch.html
 sidebar: generic
 product: Linux
