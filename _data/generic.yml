@@ -1,22 +1,22 @@
 sidebarTitle: Documentation
-owner: tomjohnson1492
+owner: zamiel
 
 ## Keep this commented out content because it shows the YAML model for the sidebar.
 
 folders:
 - title: Linux
   folderitems:
-  - title: Home
-    url: /index.html
+  - title: Installation Arch Linux
+    url: /installation-arch.html
 
-  - title: Sample 1 really long title that will wrap
-    url: /sample1.html
+  - title: Installer des dépôts AUR
+    url: /installation-depot-aur.html
 
-  - title: Sample 2 really long title that will wrap even longer
-    url: /sample2.html
+  - title: Ajouter une résolution sur Xorg
+    url: /resolution-xorg.html.html
 
-  - title: Sample 3
-    url: /sample3.html
+  - title: Configurer son adresse IP
+    url: /configuration-ip.html
 
     subfolders:
     - title: Second level deep
@@ -46,31 +46,16 @@ folders:
 
 - title: Informatique
   folderitems:
-  - title: Home
-    url: /index.html
+  - title: Convention des commits
+    url: /convention-commits.html
 
-  - title: Thing 1
-    url: /thing1.html
-
-  - title: Thing 2
-    url: /thing2.html
-
-  - title: Thing 3
-    url: /thing3.html
+  - title: Installation de TOR et de Proxychains
+    url: /install-tor-proxychains.html
 
 - title: Automatisme
   folderitems:
-  - title: Home
-    url: /index.html
-
-  - title: Thing 1
-    url: /thing1.html
-
-  - title: Thing 2
-    url: /thing2.html
-
-  - title: Thing 3
-    url: /thing3.html
+  - title: En cours
+    url: /en-cours.html
 
 ###########################
 
