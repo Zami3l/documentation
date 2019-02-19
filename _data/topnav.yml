@@ -11,24 +11,27 @@ navbar_dropdowns:
 
     - title: Linux
       folderitems:
-        - title: Installation Arch Linux
+        - title: Sytème
           url: /installation-arch.html
 
-        - title: Installer des dépôts AUR
+        - title: Réseaux
           url: /installation-depot-aur.html
 
-        - title: Ajouter une résolution sur Xorg
+        - title: Scripts
           url: /resolution-xorg.html
 
-        - title: Configurer son adresse IP
+        - title: Debug
           url: /configuration-ip.html
 
     - title: Informatique
       folderitems:
-        - title: Convention des commits
-          url: /convention-commits.html
+        - title: Docker
+          url: /docker-tunnel-tor.html
 
-        - title: TOR et Proxychains
+        - title: Git
+          url: /install-tor-proxychains.html
+
+        - title: Réseaux
           url: /install-tor-proxychains.html
 
     - title: Automatisme

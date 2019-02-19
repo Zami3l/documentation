@@ -55,11 +55,33 @@ folders:
 - title: Informatique
   folderitems:
 
-  - title: Convention des commits
-    url: /convention-commits.html
+  - title:
+    subfolders:
 
-  - title: Installation de TOR et de Proxychains
-    url: /install-tor-proxychains.html
+    - title: Docker
+      subfolderitems:
+
+      - title: Tunnel TOR avec Docker
+        url: /docker-tunnel-tor.html
+
+  - title:
+    subfolders:
+
+    - title: Git
+      subfolderitems:
+
+      - title: Convention des commits
+        url: /convention-commits.html
+
+  - title:
+    subfolders:
+
+    - title: Réseaux
+      subfolderitems:
+
+      - title: Installation de TOR et de Proxychains
+        url: /install-tor-proxychains.html
+
 
 - title: Automatisme
   folderitems:
