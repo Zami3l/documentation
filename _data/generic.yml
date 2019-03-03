@@ -24,6 +24,12 @@ folders:
       - title: Installation des dépôts AUR
         url: /installation-depot-aur.html
 
+      - title: Fonctionnement de PKGBUILD
+        url: /fonctionnement-pkgbuild.html
+
+      - title: Fonctionnement de makepkg
+        url: /fonctionnement-makepkg.html
+
   - title:
     subfolders:
 
