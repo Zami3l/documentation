@@ -3,14 +3,12 @@ language: english
 # Link to home
 url: /
 
-image_path: /img
+image_path: documentation/img
 port: 4000
 highlighter: rouge
 
 highlighting_css: monokai
 navbar_style: lighttheme-blackred
-
-image_path: /img
 
 markdown: kramdown
 kramdown:
