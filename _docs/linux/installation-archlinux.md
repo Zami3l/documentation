@@ -67,8 +67,8 @@ Pour le partionnement, je le configure de la façon suivante :
 | Chemin | Bootable | Point de montage | Taille | ID | Type |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | /dev/sda1 | * | /boot | 500M | 83 | ext4 |
-| /dev/sda2 |  | / | 10G | 83 | ext4 |
-| /dev/sda3 |  | | 4G | 82 | swap |
+| /dev/sda2 |  | | 4G | 82 | swap |
+| /dev/sda3 |  | / | 10G | 83 | ext4 |
 | /dev/sda4 |  | /home | 25.5G | 83 | ext4 | 
 
 Ce qui donnera sur l'utilitaire :
