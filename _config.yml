@@ -1,9 +1,9 @@
 language: english
 
 # Link to home
-url: documentation/
+url: /
 
-image_path: documentation/img
+image_path: /
 port: 4000
 highlighter: rouge
 
