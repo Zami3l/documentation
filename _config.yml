@@ -1,7 +1,7 @@
 language: english
 
 # Link to home
-url: /
+url: documentation/
 
 image_path: documentation/img
 port: 4000
@@ -45,7 +45,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-gems:
+plugins:
   - algoliasearch-jekyll
 
 uistring:
