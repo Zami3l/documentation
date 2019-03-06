@@ -203,7 +203,7 @@ hostname
 
 Et la configuration network de l'hôte :
 ```
-vim /etc/hostname
+vim /etc/hosts
 -> Touche i
 127.0.0.1	localhost
 ::1		localhost
