@@ -31,12 +31,12 @@ L'ISO d'Arch se trouve ici : [Arch Linux](https://www.archlinux.org/download/)
 Une fois la VM démarrée, on arrive sur l'écran de démarrage.
 On commence par sélectionner "Boot Arch Linux (x86_64)"
 
-![Boot Arch Linux](../../img/install_arch/tuto_arch_1.png)
+![Boot Arch Linux](img/install_arch/tuto_arch_1.png)
 
 
 Si tout se passe bien, on arrive en CLI sur Arch Linux en root.
 
-![Arch Linux](../../img/install_arch/tuto_arch_2.png)
+![Arch Linux](img/install_arch/tuto_arch_2.png)
 
 
 On commence par mettre son clavier en français (Qwerty par défaut).
@@ -51,7 +51,7 @@ fdisk -l
 
 Dans mon cas, mon volume est /dev/sda et est de taille 40G.
 
-![Liste des volumes](../../img/install_arch/tuto_arch_3.png)
+![Liste des volumes](img/install_arch/tuto_arch_3.png)
 
 
 Une fois le volume repéré, on lance l'utilitaire de partionnement sur /dev/sda et on le configure avec le type DOS.
@@ -59,7 +59,7 @@ Une fois le volume repéré, on lance l'utilitaire de partionnement sur /dev/sda
 cfdisk /dev/sda
 ```
 
-![Utilitaire de partionnement](../../img/install_arch/tuto_arch_4.png)
+![Utilitaire de partionnement](img/install_arch/tuto_arch_4.png)
 
 
 Pour le partionnement, je le configure de la façon suivante :
@@ -73,7 +73,7 @@ Pour le partionnement, je le configure de la façon suivante :
 
 Ce qui donnera sur l'utilitaire :
 
-![Partionnement](../../img/install_arch/tuto_arch_5.png)
+![Partionnement](img/install_arch/tuto_arch_5.png)
 
 
 Il faut ensuite partitionner nos volumes ext4 avec les commandes :
@@ -116,7 +116,7 @@ On décommente : Server = http://arch.tamcore.eu/$repo/os/Arch
 -> Touche Entrée
 ```
 
-![Mirroir décommenté](../../img/install_arch/tuto_arch_6.png)
+![Mirroir décommenté](img/install_arch/tuto_arch_6.png)
 
 
 On installe ensuite la base ainsi que quelques outils :
