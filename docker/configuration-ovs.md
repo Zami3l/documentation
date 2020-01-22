@@ -10,4 +10,4 @@ Ce réseau utilise la technologie [Open vSwitch](https://en.wikipedia.org/wiki/O
 
 Le script se base sur l'architecture suivante :
 
-![Architecture Open vSwitch](../../img/ovs/openvswitch.png)
+![Architecture Open vSwitch](../_img/ovs/openvswitch.png)

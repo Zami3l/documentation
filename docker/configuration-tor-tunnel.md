@@ -20,10 +20,10 @@ docker-compose up -d
 
 On paramètre ensuite notre firefox pour qu'il utilise notre tunnel :
 
-![Paramètrage Network Firefox](../../img/docker_tor/firefox_param_network.png)
+![Paramètrage Network Firefox](../_img/docker_tor/firefox_param_network.png)
 
-![Paramètrage Proxy Firefox](../../img/docker_tor/firefox_param_proxy.png)
+![Paramètrage Proxy Firefox](../_img/docker_tor/firefox_param_proxy.png)
 
 Et on vérifie si tout fonctionne avec le site [Check TOR](https://check.torproject.org/)
 
-![Vérification TOR](../../img/docker_tor/firefox_check_tor.png)
+![Vérification TOR](../_img/docker_tor/firefox_check_tor.png)
