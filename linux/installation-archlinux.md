@@ -96,7 +96,10 @@ mount /dev/sda4 /mnt/home
 Maintenant que nous avons préparé nos partitions, on va passer à l'installation.
 
 Il faut dans un premier temps éditer et choisir notre mirroir dans le fichier /etc/pacman.d/mirrorlist
-L'édition peut se faire avec nano ou vim. Dans l'exemple, l'édition se fait avec vim et je choisis le mirroir de tamcore.
+L'édition peut se faire avec nano ou vim. Dans l'exemple, l'édition se fait avec vim et je choisis le mirroir de mailtunnel.
+
+Vous pouvez visualiser les status de chacun des mirroirs ici : [https://www.archlinux.org/mirrors/status/](https://www.archlinux.org/mirrors/status/)
+
 ```
 vim /etc/pacman.d/mirrorlist
 :%s/Server/#Server/g
@@ -104,7 +107,7 @@ vim /etc/pacman.d/mirrorlist
 /tamcore
 -> Touche Entrée
 -> Touche i
-On décommente : Server = http://arch.tamcore.eu/$repo/os/Arch
+On décommente : Server = https://archlinux.mailtunnel.eu/
 -> Touche ECHAP
 :wq
 -> Touche Entrée
@@ -116,7 +119,7 @@ On décommente : Server = http://arch.tamcore.eu/$repo/os/Arch
 On installe ensuite la base ainsi que quelques outils :
 ```
 pacstrap /mnt base base-devel
-pacstrap /mnt bash-completion vim
+pacstrap /mnt bash-completion vim linux linux-headers dhcpd
 ```
 
 Maintenant que la base est installée, il faut générer les partitions dans le fstab :
@@ -169,7 +172,7 @@ Pour que la langue soient appliqués par défaut, il faut créer le fichier loca
 vim /etc/locale.conf
 -> Touche i
 LANG=fr_FR.UTF-8
-LC_COLLATE==C
+LC_COLLATE=C
 -> Touche ECHAP
 :wq
 -> Touche Entrée
