@@ -1,9 +1,4 @@
----
-title: Fonctionnement de Makepkg
-permalink: fonctionnement-makepkg.html
-sidebar: generic
-product: Linux
----
+# Fonctionnement de Makepkg
 
 Makepkg permet de construire et compiler des paquets se basant sur un PKGBUILD.
 

@@ -1,10 +1,4 @@
----
-title: Configuration d'un réseau avec Open vSwitch
-permalink: scripts-ovs.html
-sidebar: generic
-product: Informatique
----
-
+# Configuration d'un réseau avec Open vSwitch
 
 ## Lien vers le projet
 [Github Zamiel : Script de configuration d'un réseau OvS](https://github.com/Zami3l/linux/tree/master/scripts/ovs)

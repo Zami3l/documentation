@@ -1,11 +1,5 @@
----
-title: Ajout d'une résolution sur Xorg
-permalink: resolution-xorg.html
-sidebar: generic
-product: Linux
----
+# Ajout d'une résolution sur Xorg
 
-----
 [Xorg](https://wiki.archlinux.org/index.php/xorg) permet de prendre en charge l'interface graphique sous GNU/Linux. Par exemple, [i3wm](https://wiki.archlinux.org/index.php/i3) (Gestionnaire de fenêtre) est par défaut lié à Xorg.
 Si vous utilisez votre système d'exploitation sur une machine virtuelle, il est possible que celui ci ne détecte pas la bonne résolution de votre écran.
 

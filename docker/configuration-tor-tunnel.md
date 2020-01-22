@@ -1,10 +1,4 @@
----
-title: Tunnel TOR avec Docker
-permalink: docker-tunnel-tor.html
-sidebar: generic
-product: Informatique
----
-
+# Configuration d'un Tunnel TOR avec Docker
 
 ## Lien vers le projet
 [Github Zamiel : Tunnel TOR avec Docker](https://github.com/Zami3l/Docker/tree/master/tor)

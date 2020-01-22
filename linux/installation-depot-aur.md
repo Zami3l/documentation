@@ -1,10 +1,4 @@
----
-title: Installation des dépôts AUR
-permalink: installation-depot-aur.html
-sidebar: generic
-product: Linux
----
-
+# Installation des dépôts AUR
 
 La distribution Arch Linux dispose d'un dépôt communautaire auquel chaque utilisateur d'Arch peut participer.
 Ce dépôt appelé [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository) (_Arch User Repository_) contient des PKGBUILD (_C'est un fichier [Bash](https://wiki.archlinux.org/index.php/Bash) qui permet de construire un paquet_). Il passe forcément par [Git](https://wiki.archlinux.org/index.php/git) mais ce ne sont pas des dépôts "classique", "officiel" d'Arch, et leur contenu n'est pas systématiquement vérifié ni maintenu activement.

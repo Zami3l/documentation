@@ -1,11 +1,5 @@
----
-title: Installer d'Arch Linux
-permalink: installation-arch.html
-sidebar: generic
-product: Linux
----
+# Installation d'Arch Linux
 
-----
 ## Sommaire
 
 ##### [1 - Présentation](#1-Présentation)

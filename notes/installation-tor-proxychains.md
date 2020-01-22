@@ -1,9 +1,4 @@
----
-title: Installation de TOR et de Proxychains
-permalink: install-tor-proxychains.html
-sidebar: generic
-product: Informatique
----
+# Installation de TOR et de Proxychains
 
 [Tor](https://fr.wikipedia.org/wiki/Tor_(r%C3%A9seau)) désigne un réseau informatique décentralisé permettant l'anonymat des clients, reposant sur des serveurs spécifiques appelés « nœuds ».
 

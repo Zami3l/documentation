@@ -1,11 +1,5 @@
----
-title: Configuration de l'adresse IP
-permalink: configuration-ip.html
-sidebar: generic
-product: Linux
----
+# Configuration de l'adresse IP
 
-----
 La configuration d'adresses IP peut se faire de plusieurs façon. Ici, nous allons utiliser [netctl](https://wiki.archlinux.org/index.php/netctl), installé par défaut sur Arch Linux.
 
 ##### Nom du périphérique réseau #####

@@ -1,11 +1,4 @@
----
-title: Convention des commits
-permalink: convention-commits.html
-sidebar: generic
-product: Informatique
----
-
-----
+# Convention des commits
 
 Vous trouverez ci-dessous la convention de nommage de mes commits.
 
