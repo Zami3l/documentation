@@ -104,7 +104,7 @@ Vous pouvez visualiser les status de chacun des mirroirs ici : [https://www.arch
 vim /etc/pacman.d/mirrorlist
 :%s/Server/#Server/g
 -> Touche Entrée
-/tamcore
+/mailtunnel
 -> Touche Entrée
 -> Touche i
 On décommente : Server = https://archlinux.mailtunnel.eu/
