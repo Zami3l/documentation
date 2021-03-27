@@ -100,21 +100,21 @@ echo ""                                                                 >> ${LOG
 echo "${MAILSUBJECT}"                                                   >> ${LOG}
 echo ""                                                                 >> ${LOG}
 echo "# ---------------------------"                                    >> ${LOG}
-echo "# Mise à jour base de donnée"                                     >> ${LOG}
+echo "# Mise à jour base de données"                                    >> ${LOG}
 echo "# ---------------------------"                                    >> ${LOG}
 
 
-MESSAGE="Mise à jour base de donnée [MAIN]"
+MESSAGE="Mise à jour base de données [MAIN]"
 log $(check_status RUNNING) "$MESSAGE"
 ERROR=$(sudo freshclam --update-db=bytecode --quiet 2>&1)
 log $(check_status $?) "$MESSAGE" "$ERROR"
 
-MESSAGE="Mise à jour base de donnée [DAILY]"
+MESSAGE="Mise à jour base de données [DAILY]"
 log $(check_status RUNNING) "$MESSAGE"
 ERROR=$(sudo freshclam --update-db=bytecode --quiet 2>&1)
 log $(check_status $?) "$MESSAGE" "$ERROR"
 
-MESSAGE="Mise à jour base de donnée [BYTECODE]"
+MESSAGE="Mise à jour base de données [BYTECODE]"
 log $(check_status RUNNING) "$MESSAGE"
 ERROR=$(sudo freshclam --update-db=bytecode --quiet 2>&1)
 log $(check_status $?) "$MESSAGE" "$ERROR"
